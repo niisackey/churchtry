@@ -43,8 +43,49 @@
     color: #000;
 
   }
+
+  .newscreen{
+    padding: 20px;
+  }
+
+  .news{
+    display: flex;
+    
+    
+  }
+
+  .txtimg{
+    width: 50%;
+    
+  }
+  .txtimg img{
+    width: 100%;
+  }
+
+  .txt h1::after{
+    content: '';
+      background: darkgreen;
+      display: block;
+      height: 2px;
+      width: 90px;
+      margin-top: 10px;
+  }
+
+  .tag{
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .txt{
+    width: 50%;
+    padding: 30px !important;
+  }
   
-  
+  .visiontag{
+    background-color: rebeccapurple;
+    padding: 20px;
+  }
 
   #slider figure{
     position: relative;
@@ -1225,7 +1266,31 @@ box-shadow: 0 0 10px #333;
     text-align: center;
     transition: all 0.5s;
   }
+
+  .newscreen{
+    padding: 0px;
+  }
+
+ 
   
+  .tag{
+    flex-direction: column;
+  }
+
+  .txt{
+    width: fit-content;
+    padding: 20px;
+  }
+
+  .txtimg{
+    width: fit-content;
+    
+  }
+
+  .news{
+    flex-direction: column;
+    width: 100%;
+  }
  
   .tr h2{
     /* font-size: 25px ;

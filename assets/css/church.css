@@ -2114,6 +2114,8 @@ position: relative;
 
   }
 
+
+
   .adult img{
     width: 360px;
     
@@ -2865,13 +2867,15 @@ section#timeline article div.inner h2:after {
   -webkit-transform: rotate(-45deg);
 }
 section#timeline article div.inner p {
-  padding: 15px;
+  /* padding: 15px; */
   margin: 0;
   font-size: 14px;
   background: whitesmoke;
   box-shadow: 0px 4px 16px -8px rgba(0,0,0,0.4);
   color: #656565;
   border-radius: 0 0 6px 6px;
+  padding: 10px;
+  
 }
 section#timeline article:nth-child(2n+2) div.inner {
   float: right;

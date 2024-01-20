@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: #000000;
     
 }
   
@@ -118,6 +119,8 @@
     background: whitesmoke;
     padding: 10px;
     border-radius: 20px;
+    color: black !important;
+    font-size: medium;
   }
 
   #wing{
@@ -151,7 +154,9 @@
       
     }
 
-   
+    input[type="date"] {
+      width: 100%; 
+    }
     .side1{
       
       flex-direction: column;
